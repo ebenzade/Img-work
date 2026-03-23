@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Image map check!</h2>
+    <p>Applying image click,<br> to link to different sites</p>
+
+    <img src="grassland image.jpg" alt="Giraffes in a field" usemap="#giraffemap" width="275" height="183">
+
+    <map name="giraffemap">
+
+        <!-- Left side giraffe -->
+        <area shape="rect" coords="10,40,60,150" href="https://www.britannica.com/animal/animal" alt="Left Giraffe"
+            title="Giraffe on the left" Target="-blank">
+
+        <!-- Center giraffe -->
+        <area shape="rect" coords="120,50,165,170" href="https://en.wikipedia.org/wiki/Vegetation" alt="Center Giraffe"
+            title="Center Giraffe" Target="-blank">
+
+        <!-- Right side giraffe -->
+        <area shape="rect" coords="200,45,250,165" href="https://en.wikipedia.org/wiki/Freshwater_ecosystem"
+            alt="Right Giraffe" title="Right Giraffe" Target="-blank">
+
+        <!-- Central bush -->
+        <area shape="circle" coords="135,115,25" href="" alt="Bush" title="Central Bush" Target="-blank">
+
+        <!-- Group of giraffes in background -->
+        <area shape="poly" coords="60,20,100,15,140,30,120,55,80,50"
+            href="https://www.worldwildlife.org/our-work/wildlife/" alt="Group of Giraffes" title="Background Giraffes"
+            Target="-blank">
+
+    </map>
+</body>
+
+</html>
